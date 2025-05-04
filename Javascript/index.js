@@ -28,7 +28,7 @@ function gameProducts(products) {
       title.textContent = product.title;
       price.textContent = `$${product.price}`;
       genre.textContent = `${product.genre}`
-      anchor.href = `game/game.html?id=${product.id}`;
+      anchor.href = `product/index.html?id=${product.id}`;
   
       content.appendChild(title);
       content.appendChild(genre)

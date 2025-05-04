@@ -878,10 +878,6 @@ textarea {
     text-decoration: none;
 }
 
-#card-price-sale {
-    text-decoration: line-through;
-}
-
 .discount-price {
     display: flex;
     font-weight: bolder;
